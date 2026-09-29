@@ -28,7 +28,7 @@ void Insert_At_Tail(int val){
 	}
 	else{	
 		tail->next = nn;		//Placing the new node after the current tail
-		tail = tail->next;		//Making the inserted node as head
+		tail = tail->next;		//Making the inserted node as tail
 	}
 }
 
